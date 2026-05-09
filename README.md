@@ -1,16 +1,40 @@
-# React + Vite
+# Weather Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Card is a React weather planning dashboard for checking current conditions, hourly details, five-day forecasts, saved places, and practical trip notes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search live weather by city with Open-Meteo data
+- View current temperature, condition, feels-like temperature, humidity, rain chance, and wind
+- See an hourly forecast strip for quick day planning
+- See a five-day forecast with highs, lows, condition, and rain probability
+- Toggle between Fahrenheit and Celsius
+- Save favorite cities in local storage
+- Reopen recent searches quickly
+- View condition warnings for rain, wind, heat, and freezing temperatures
+- Get practical planning notes based on temperature, rain, and wind
+- Responsive dashboard layout for desktop and mobile
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
+- Open-Meteo API
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Screenshot
+
+Add a screenshot here after running the app locally.
