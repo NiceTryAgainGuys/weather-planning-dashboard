@@ -57,9 +57,9 @@ npm run build
 
 ## Repository Name Ideas
 
-1. `weather-planner-dashboard`
-2. `forecast-card-react`
-3. `city-weather-dashboard`
+1. `city-weather-forecast-dashboard`
+2. `weather-planning-dashboard-react`
+3. `open-meteo-forecast-planner`
 
 ## GitHub About
 
